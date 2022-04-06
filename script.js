@@ -1,4 +1,4 @@
-function szamol() {
+let szamolas = function szamol() {
     let F = document.getElementById('fogyasztas').value;
 
     let V = document.getElementById('tank').value;
@@ -17,6 +17,6 @@ function szamol() {
 
 }
 
-
+document.getElementById('szamol').addEventListener('click', szamolas)
 
 
